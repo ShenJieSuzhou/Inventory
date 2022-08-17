@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{60568F44-9ED4-4DA3-98F5-3422B67FAFA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{32972327-458D-44D7-B608-E545FE8F60B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DP">
+      <UniqueIdentifier>{B9FC4678-84B7-4042-B471-25B82CAF6C4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DP\DP.Build.cs">
+      <Filter>Source\DP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DP\DP.cpp">
+      <Filter>Source\DP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DP\DP.h">
+      <Filter>Source\DP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DP\DPCharacter.cpp">
+      <Filter>Source\DP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DP\DPCharacter.h">
+      <Filter>Source\DP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DP\DPGameMode.cpp">
+      <Filter>Source\DP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DP\DPGameMode.h">
+      <Filter>Source\DP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

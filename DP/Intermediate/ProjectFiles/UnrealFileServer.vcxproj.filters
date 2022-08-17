@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFileServer\UnrealFileServer.Target.cs" />
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFileServer\UnrealFileServer.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{895A73AE-5F68-4C35-A209-FE6C599436CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFileServer\Private\UnrealFileServer.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFileServer\Private\UnrealFileServer.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DP.cpp.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DPCharacter.cpp.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DPGameMode.cpp.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DP.init.gen.cpp.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DPCharacter.gen.cpp.obj"
+"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\DPGameMode.gen.cpp.obj"
+"D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"G:\SomeDemos\DP\Intermediate\Build\Win64\UE4Editor\Development\DP\UE4Editor-DP.lib"

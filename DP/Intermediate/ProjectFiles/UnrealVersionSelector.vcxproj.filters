@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{C819E50B-D449-4BE3-8540-A4F3FE1F72B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\GenericPlatform">
+      <UniqueIdentifier>{C75BC877-8E8F-439A-9147-EEF5529F8712}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
+      <Filter>Private\GenericPlatform</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h">
+      <Filter>Private\GenericPlatform</Filter>
+    </ClInclude>
+    <Filter Include="Private\Linux">
+      <UniqueIdentifier>{4BF9D7B1-E420-46C0-AA8E-A9DF67B7D12C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.cpp">
+      <Filter>Private\Linux</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.h">
+      <Filter>Private\Linux</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\UnrealVersionSelectorLinuxMain.cpp">
+      <Filter>Private\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Linux\Resources">
+      <UniqueIdentifier>{C914F380-D92B-4A8E-83C9-6A6A41AB5984}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngine.desktop">
+      <Filter>Private\Linux\Resources</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngineEditor.desktop">
+      <Filter>Private\Linux\Resources</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealVersionSelector.desktop">
+      <Filter>Private\Linux\Resources</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\Icon.png">
+      <Filter>Private\Linux\Resources</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\uproject.xml">
+      <Filter>Private\Linux\Resources</Filter>
+    </None>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{03F7DE3B-3D5D-4D15-AEAC-7A5CE5076D66}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <Filter Include="Private\Windows\Resources">
+      <UniqueIdentifier>{689BC3DC-F134-4038-A3AF-39DB762528D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico">
+      <Filter>Private\Windows\Resources</Filter>
+    </None>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h">
+      <Filter>Private\Windows\Resources</Filter>
+    </ClInclude>
+    <ResourceCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc">
+      <Filter>Private\Windows\Resources</Filter>
+    </ResourceCompile>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc2">
+      <Filter>Private\Windows\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win32">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win32">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Debug_Program|Win32">
+      <Configuration>Linux_Debug_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Debug_Program|x64">
+      <Configuration>Linux_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win32">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|Win32">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|x64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_DebugGame_Program|Win32">
+      <Configuration>Linux_DebugGame_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_DebugGame_Program|x64">
+      <Configuration>Linux_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win32">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win32">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Development_Program|Win32">
+      <Configuration>Linux_Development_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Development_Program|x64">
+      <Configuration>Linux_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win32">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win32">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Shipping_Program|Win32">
+      <Configuration>Linux_Shipping_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Shipping_Program|x64">
+      <Configuration>Linux_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win32">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|Win32">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|x64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Test_Program|Win32">
+      <Configuration>Linux_Test_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Test_Program|x64">
+      <Configuration>Linux_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAB4B3E3-0D93-4EA9-8C60-C33D77F9E6D7}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealFrontend</RootNamespace>
+    <PlatformToolset>v141</PlatformToolset>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win32\UnrealFrontend-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win64\UnrealFrontend-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Mac\UnrealFrontend-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Linux Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Linux Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Linux Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Linux\UnrealFrontend-Linux-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win32\UnrealFrontend-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win64\UnrealFrontend-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Mac\UnrealFrontend-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Linux DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Linux DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Linux DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Linux\UnrealFrontend-Linux-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win32\UnrealFrontend.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win64\UnrealFrontend.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Mac\UnrealFrontend</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Linux Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Linux Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Linux Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Linux\UnrealFrontend</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win32\UnrealFrontend-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win64\UnrealFrontend-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Mac\UnrealFrontend-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Linux Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Linux Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Linux Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Linux\UnrealFrontend-Linux-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win32\UnrealFrontend-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Win64\UnrealFrontend-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Mac\UnrealFrontend-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Build.bat UnrealFrontend Linux Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Linux Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\4.27\4.27.2\ue\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Linux Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\4.27\4.27.2\ue\Engine\Binaries\Linux\UnrealFrontend-Linux-Test</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\4.27\4.27.2\ue\Engine\Source;D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private;D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Launch\Private;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\AutomationController;D:\4.27\4.27.2\ue\Engine\Source\Developer;D:\4.27\4.27.2\ue\Engine\Source\Developer\AutomationController\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Core;D:\4.27\4.27.2\ue\Engine\Source\Runtime;D:\4.27\4.27.2\ue\Engine\Source\Runtime\TraceLog\Public;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Core\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TraceLog;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\CoreUObject;D:\4.27\4.27.2\ue\Engine\Source\Runtime\CoreUObject\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ApplicationCore;D:\4.27\4.27.2\ue\Engine\Source\Runtime\ApplicationCore\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RHI;D:\4.27\4.27.2\ue\Engine\Source\Runtime\RHI\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DeviceManager;D:\4.27\4.27.2\ue\Engine\Source\Developer\DeviceManager\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetDeviceServices;D:\4.27\4.27.2\ue\Engine\Source\Developer\TargetDeviceServices\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\LauncherServices;D:\4.27\4.27.2\ue\Engine\Source\Developer\LauncherServices\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Messaging;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Messaging\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\OutputLog;D:\4.27\4.27.2\ue\Engine\Source\Developer\OutputLog\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Profiler;D:\4.27\4.27.2\ue\Engine\Source\Developer\Profiler\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\InputCore;D:\4.27\4.27.2\ue\Engine\Source\Runtime\InputCore\Classes;D:\4.27\4.27.2\ue\Engine\Source\Runtime\InputCore\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RenderCore;D:\4.27\4.27.2\ue\Engine\Source\Runtime\RenderCore\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Slate;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Slate\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Json;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Json\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateCore;D:\4.27\4.27.2\ue\Engine\Source\Runtime\SlateCore\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ImageWrapper;D:\4.27\4.27.2\ue\Engine\Source\Runtime\ImageWrapper\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\EditorStyle;D:\4.27\4.27.2\ue\Engine\Source\Editor;D:\4.27\4.27.2\ue\Engine\Source\Editor\EditorStyle\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerClient;D:\4.27\4.27.2\ue\Engine\Source\Developer\ProfilerClient\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerService;D:\4.27\4.27.2\ue\Engine\Source\Developer\ProfilerService\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DesktopPlatform;D:\4.27\4.27.2\ue\Engine\Source\Developer\DesktopPlatform\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProjectLauncher;D:\4.27\4.27.2\ue\Engine\Source\Developer\ProjectLauncher\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetPlatform;D:\4.27\4.27.2\ue\Engine\Source\Developer\TargetPlatform\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\AudioPlatformConfiguration;D:\4.27\4.27.2\ue\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\LauncherPlatform;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Portal;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Portal\LauncherPlatform\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Projects;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Projects\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionFrontend;D:\4.27\4.27.2\ue\Engine\Source\Developer\SessionFrontend\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionServices;D:\4.27\4.27.2\ue\Engine\Source\Runtime\SessionServices\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SourceCodeAccess;D:\4.27\4.27.2\ue\Engine\Source\Developer\SourceCodeAccess\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Settings;D:\4.27\4.27.2\ue\Engine\Source\Developer\Settings\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\StandaloneRenderer;D:\4.27\4.27.2\ue\Engine\Source\Developer\StandaloneRenderer\Public;D:\4.27\4.27.2\ue\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Intermediate\Build\Win64\UnrealFrontend\Inc\VisualStudioSourceCodeAccess;D:\4.27\4.27.2\ue\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Networking;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Networking\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Sockets;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Sockets\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\NetCommon;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Net;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Net\Common\Public;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\UdpMessaging;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\UdpMessaging\Source;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\TcpMessaging;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\TcpMessaging\Source;D:\4.27\4.27.2\ue\Engine\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateReflector;D:\4.27\4.27.2\ue\Engine\Source\Developer\SlateReflector\Public;D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\UnrealFrontend;D:\4.27\4.27.2\ue\Engine\Source\Programs;D:\4.27\4.27.2\ue\Engine\Source\Runtime\Launch\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs"/>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini"/>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h"/>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\4.27\4.27.2\ue\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealFrontend\Resources\Mac\Info.plist"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

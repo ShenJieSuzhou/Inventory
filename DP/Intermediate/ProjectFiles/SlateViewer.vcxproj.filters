@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\SlateViewer.Target.cs" />
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{AB4C4F82-91AC-4945-9C35-A3A94BD02CE7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\IOS">
+      <UniqueIdentifier>{373070C0-96E9-4FF5-BA28-77BC5CB857D2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp">
+      <Filter>Private\IOS</Filter>
+    </ClCompile>
+    <Filter Include="Private\Linux">
+      <UniqueIdentifier>{8BBA891B-B88A-4F1A-8E8E-BCDDCA7981C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp">
+      <Filter>Private\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Mac">
+      <UniqueIdentifier>{FA2E47DD-ADC0-40BA-86B4-415E23D50116}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp">
+      <Filter>Private\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{1A68B03F-1EB8-4840-98D7-B9D9ED7EA4DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{699F774D-5E09-489C-8962-93012118AEAF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Public\SlateViewer.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\SlateViewer\Public\SlateViewerApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

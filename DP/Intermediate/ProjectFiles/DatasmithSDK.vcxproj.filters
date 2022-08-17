@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\DatasmithSDK.Target.cs" />
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\DatasmithSDK.Build.cs" />
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{957C5623-D508-4178-A430-8E4610A324FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\1.Welcome.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\2.SetUpYourProject.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\3.ExportToDatasmith.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\Third Party Software Notices.pdf">
+      <Filter>Documentation</Filter>
+    </None>
+    <Filter Include="Documentation\build">
+      <UniqueIdentifier>{5AA763D6-6D57-46A5-97C4-38E9977A4FD0}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\DatasmithSDK_config.txt">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\examples.dox">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\footer.txt">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\header.txt">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\run_doxygen.bat">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\styles.css">
+      <Filter>Documentation\build</Filter>
+    </None>
+    <Filter Include="Documentation\build\output">
+      <UniqueIdentifier>{7CD68903-3697-4248-A595-F6A035D7BE5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\output\Datasmith SDK Documentation.html">
+      <Filter>Documentation\build\output</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\output\Datasmith SDK Documentation.zip">
+      <Filter>Documentation\build\output</Filter>
+    </None>
+    <Filter Include="Private">
+      <UniqueIdentifier>{403BBA6F-E90A-4857-A1F3-1D53A7D3ADDE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Private\DatasmithSDK.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Private\DatasmithSDK.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

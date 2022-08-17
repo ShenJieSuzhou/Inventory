@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealMultiUserServer\UnrealMultiUserServer.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{7C01CFC1-B9B8-4EF4-80D8-CFE19AC18265}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Programs\UnrealMultiUserServer\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealMultiUserServer\UnrealMultiUserServer.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{152B9553-03FA-4FBD-A1D5-8D4F32599C71}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerRun.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerRun.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

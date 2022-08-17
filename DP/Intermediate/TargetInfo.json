@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DP",
+			"Path": "G:\\SomeDemos\\DP\\Source\\DP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DPEditor",
+			"Path": "G:\\SomeDemos\\DP\\Source\\DPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

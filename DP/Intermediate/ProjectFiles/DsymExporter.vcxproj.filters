@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Target.cs" />
+    <None Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{7E492B59-FF71-4CA4-B060-42E864E76669}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Mac\DsymExporter\Private\DsymExporterApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\Mac">
+      <UniqueIdentifier>{799A3310-2D2C-4609-B55D-77F0A729ED58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Mac\DsymExporter\Private\Mac\DsymExporterMainMac.cpp">
+      <Filter>Private\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{167D5C51-82DA-4216-904E-5980BA6A4F86}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="D:\4.27\4.27.2\ue\Engine\Source\Programs\Mac\DsymExporter\Public\DsymExporterApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
